@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+    <nav class="dws-menu">
+        <input type="checkbox" name="toggle" id="menu" class="toggleMenu">
+        <label for="menu" class="toggleMenu"><i class="fa fa-bars"></i><p><img src="img/menu.gif"> <img src="img/menu.gif"> <img src="img/menu.gif"></p></label>
+        <ul>
+            <li><a href="index.html"><i class="fa fa-home"></i>Главная</a></li>
+            <li>
+                <a href="magazin.html"><i class="fa fa-shopping-cart"></i>Магазин</a>
+            </li>
+            <li>
+                <input type="checkbox" name="toggle" class="toggleSubmenu" id="sub_m2">
+                <a href="#"><i class="fa fa-cogs"></i>Пользователь</a>
+                <label for="sub_m2" class="toggleSubmenu"><i class="fa"></i></label>
+                <ul>
+                    <li><a href="profil.html">Профиль</a></li>
+                    <li><a href="korzina.html">Корзина</a></li>
+                </ul>
+            </li>
+            <li>
+                <input type="checkbox" name="toggle" class="toggleSubmenu" id="sub_m1">
+                <a href="#"><i class="fa fa-cogs"></i>Авторизация</a>
+                <label for="sub_m1" class="toggleSubmenu"><i class="fa"></i></label>
+                <ul>
+                    <li><a href="avtorizac.html">Регистрация</a></li>
+                    <li><a href="vhod.html">Вход</a></li>
+                    <li><a href="index.html">Выход</a></li>
+                </ul>
+            </li>
+            <li><a href="help.html"><i class="fa fa-th-list"></i>Помощь</a></li>
+            <li><a href="kontact.html"><i class="fa fa-envelope-open"></i>О нас</a></li>
+        </ul>
+    </nav>
+</header>
+    <div class="telo">
+            <div class="shopping-cart">
+                    <!-- Title -->
+                    <div class="title">
+                      Корзина
+                    </div>
+               
+                    <!-- Товар #1 -->
+                    <div class="item">
+                      </div>
+               
+                      <div class="image">
+                        <img src="img/item-1.png" alt="" />
+                      </div>
+               
+                      <div class="description">
+                        <span>Бумажный пакет</span>
+                        <span>Быстроразлагаемый</span>
+                        <span>Коричневый</span>
+                      </div>
+               
+                      <div class="quantity">
+                        <button class="plus-btn" type="button" name="button">
+                          <img src="img/plus.png" alt="" />
+                        </button>
+                        <input type="text" name="name" value="1">
+                        <button class="minus-btn" type="button" name="button">
+                          <img src="img/minus.png" alt="" />
+                        </button>
+                      </div>
+                      <div class="total-price1">70р.</div>
+                    </div>
+               
+                    <!-- Товар #2 -->
+                    <div class="item">
+                      <div class="buttons">   
+                      </div>
+               
+                      <div class="image">
+                        <img src="img/item-2.png" alt=""/>
+                      </div>
+               
+                      <div class="description">
+                        <span>Стол ЭКО</span>
+                        <span>Из чистого дерева</span>
+                        <span>Коричневый</span>
+                      </div>
+               
+                      <div class="quantity">
+                        <button class="plus-btn" type="button" name="button">
+                          <img src="img/plus.png" alt="" />
+                        </button>
+                        <input type="text" name="name" value="1">
+                        <button class="minus-btn" type="button" name="button">
+                          <img src="img/minus.png" alt="" />
+                        </button>
+                      </div>          
+                      <div class="total-price">2349р.</div>
+                    </div>
+               
+                    <!-- Товар #3 -->
+                    <div class="item">
+                      <div class="buttons">                        
+                      </div>
+               
+                      <div class="image">
+                        <img src="img/item-3.png" alt="" />
+                      </div>
+               
+                      <div class="description">
+                        <span>Стол Экологии</span>
+                        <span>Дуб</span>
+                        <span>Коричневый</span>
+                      </div>
+               
+                      <div class="quantity">
+                        <button class="plus-btn" type="button" name="button">
+                          <img src="img/plus.png" alt="" />
+                        </button>
+                        <input type="text" name="name" value="1" id="kolichestvo">
+                        <button class="minus-btn" type="button" name="button">
+                          <img src="img/minus.png" alt="" />
+                        </button>
+                      </div>
+               
+                      <div class="total-price">3451р.</div>
+                    </div>
+                  </div>
+                  <a href="oplata.html"><button class="oplata" type="button" name="button">
+                    <p>Оплата</p>
+                  </button></a>
+    </div>
+    <script src="jquery.js"></script>
+    <script src="novosti.js"></script>
+</body>
+</html>

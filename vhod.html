@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.4.1.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="dws-menu">
+            <input type="checkbox" name="toggle" id="menu" class="toggleMenu">
+            <label for="menu" class="toggleMenu"><i class="fa fa-bars"></i><p><img src="img/menu.gif"> <img src="img/menu.gif"> <img src="img/menu.gif"></p></label>
+            <ul>
+                <li><a href="index.html"><i class="fa fa-home"></i>Главная</a></li>
+                <li>
+                    <a href="magazin.html"><i class="fa fa-shopping-cart"></i>Магазин</a>
+                </li>
+                <li>
+                    <input type="checkbox" name="toggle" class="toggleSubmenu" id="sub_m2">
+                    <a href="profil.html"><i class="fa fa-cogs"></i>Профиль</a>
+                    <label for="sub_m2" class="toggleSubmenu"><i class="fa"></i></label>
+                    <ul>
+                        <li><a href="index.html">Корзина</a></li>
+                        <li><a href="avtorizac.html">Регистрация</a></li>
+                        <li><a href="vhod.html">Вход</a></li>
+                        <li><a href="index.html">Выход</a></li>
+                    </ul>
+                </li>
+                <li><a href="help.html"><i class="fa fa-th-list"></i>Помощь</a></li>
+                <li><a href="kontact.html"><i class="fa fa-envelope-open"></i>О нас</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="telo">
+        <div class = "form-wrap">
+            <div class="profile">
+            </div>
+            <form method="post">
+                        <div>
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" required>
+                        </div>
+                        <div>
+                        <label for="password">Пароль</label>
+                        <input type="password" name="password" placeholder="Enter Password" required>
+                        </div>
+                        <button type="submit"><a href="index.html">Войти</a></button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
